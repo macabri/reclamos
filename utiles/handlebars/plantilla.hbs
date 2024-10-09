@@ -1,0 +1,101 @@
+{{!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cambio de Estado</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #03912e;
+    }
+    p {
+      color: #000;
+    }    
+    li {
+      color: #000;
+    } 
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Notificación de cambio de estado del reclamo</h1>
+    <h4>Estimado Sr/ra {{nombre}}</h4>
+    <p> Nos comunicamos para informarle que su reclamo nro {{reclamo}} a cambiado de estado. Ahora está ... </p>        
+
+    <p>Atte.</p>        
+    <h4>No responder este correo.... </h4>
+  </div>
+</body>
+</html> --}}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambio de Estado del Reclamo</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: left;
+    }
+    h1 {
+      color: #2c3e50;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    h4 {
+      color: #34495e;
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    p {
+      color: #555;
+      line-height: 1.6;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Notificación de Cambio de Estado del Reclamo</h1>
+    <h4>Estimado/a Sr./Sra. {{nombre}},</h4>
+    <p>Nos comunicamos para informarle que su reclamo número <strong>{{reclamo}}</strong> ha cambiado de estado. Actualmente se encuentra en la siguiente situación: <strong>...</strong>.</p>
+
+    <p>Si necesita más información, no dude en ponerse en contacto con nosotros.</p>
+
+    <p class="footer">Atentamente</p>
+    <p class="footer">No responder este correo.</p>
+  </div>
+</body>
+</html>
